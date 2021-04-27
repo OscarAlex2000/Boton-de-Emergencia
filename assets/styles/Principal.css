@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "";
+}
+
+body {
+    background-color: #889BA5;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    background-color: white;
+}
+
+#JOP {
+    font-size: 50px;
+    text-align: center;
+    color: #F9BF00;
+    letter-spacing: 0.50em;
+}
+
+.BotonAlerta {
+    background-image: url(../img/boton.png);
+    background-size: 100%;
+    background-color: #889BA5;
+    margin-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    width: 500px;
+    border: none;
+    cursor: pointer;
+    padding: 10px 25px;
+    color: white;
+    font-size: 20px;
+    text-align: right;
+    transition: .5s ease;
+}
+
+.BotonAlerta:focus {
+    outline: 0;
+    padding: 8px 18px;
+}

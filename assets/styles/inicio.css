@@ -1,0 +1,117 @@
+/* Oscar Alexis Flores Sanchez */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: #D44D1C;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#titulo {
+    text-align: center;
+    margin-top: 100px;
+}
+
+#mensaje {
+    margin-top: 30px;
+}
+
+#cntColor {
+    width: 100vw;
+    height: 100vh;
+    /* background-color: #E81414;
+    opacity: .7; */
+    background-color: #D44D1C;
+}
+
+#cntPage1 {
+    width: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+input.holo[type='text'] {
+    /* You can set width to whatever you like */
+    width: 320px;
+    font-family: "Roboto", "Droid Sans", sans-serif;
+    font-size: 25px;
+    margin: 0;
+    padding: 8px 8px 6px 8px;
+    position: relative;
+    display: block;
+    outline: none;
+    border: none;
+    background: bottom left linear-gradient(#FFFFFF, #FFFFFF) no-repeat, bottom center linear-gradient(#FFFFFF, #FFFFFF) repeat-x, bottom right linear-gradient(#FFFFFF, #FFFFFF) no-repeat;
+    background-size: 1px 6px, 1px 1px, 1px 6px;
+}
+
+::placeholder {
+    color: black;
+}
+
+input.holo[type='text']:hover,
+input.holo[type='text']:focus {
+    background: bottom left linear-gradient(#FFFFFF, #FFFFFF) no-repeat, bottom center linear-gradient(#FFFFFF, #FFFFFF) repeat-x, bottom right linear-gradient(#FFFFFF, #FFFFFF) no-repeat;
+    background-size: 1px 6px, 1px 1px, 1px 6px;
+}
+
+input.holo1[type='text'] {
+    /* You can set width to whatever you like */
+    color: white;
+    width: 320px;
+    font-family: "Roboto", "Droid Sans", sans-serif;
+    font-size: 25px;
+    margin: 0;
+    padding: 8px 8px 6px 8px;
+    position: relative;
+    display: block;
+    outline: none;
+    border: none;
+    background: bottom left linear-gradient(#FFFFFF, #FFFFFF) no-repeat, bottom center linear-gradient(#FFFFFF, #FFFFFF) repeat-x, bottom right linear-gradient(#FFFFFF, #FFFFFF) no-repeat;
+    background-size: 1px 6px, 1px 1px, 1px 6px;
+}
+
+input.holo1[type='text']:hover,
+input.holo1[type='text']:focus {
+    background: bottom left linear-gradient(#FFFFFF, #FFFFFF) no-repeat, bottom center linear-gradient(#FFFFFF, #FFFFFF) repeat-x, bottom right linear-gradient(#FFFFFF, #FFFFFF) no-repeat;
+    background-size: 1px 6px, 1px 1px, 1px 6px;
+}
+
+#olvidar {
+    margin: 10px;
+    padding: 2px;
+    text-align: right;
+    font-size: 13px;
+}
+
+#btnIngresar {
+    border: 2px solid white;
+    width: 60%;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-color: #F20519;
+    opacity: .9;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#registrar {
+    padding: 2px;
+    margin: 10px;
+}

@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "";
+}
+
+body {
+    background-color: #889BA5;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#Container {
+    width: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+#Color {
+    width: 100vw;
+    height: 100vh;
+    background-color: #889BA5;
+}
+
+#MensajeDatos {
+    text-align: center;
+    margin-top: 50px;
+}
+
+input.Nombre[type='text'] {
+    width: 320px;
+    font-family: "Roboto", "Droid Sans", sans-serif;
+    font-size: 25px;
+    margin: 0;
+    padding: 8px 8px 6px 8px;
+    position: relative;
+    display: block;
+    outline: none;
+    border: none;
+    background: bottom left linear-gradient(#000000, #000000) no-repeat, bottom center linear-gradient(#000000, #000000) repeat-x, bottom right linear-gradient(#000000, #000000) no-repeat;
+    background-size: 1px 6px, 1px 1px, 1px 6px;
+}
+
+input.Numero[type='text'] {
+    width: 320px;
+    font-family: "Roboto", "Droid Sans", sans-serif;
+    font-size: 25px;
+    margin: 0;
+    padding: 8px 8px 6px 8px;
+    position: relative;
+    display: block;
+    outline: none;
+    border: none;
+    background: bottom left linear-gradient(#000000, #000000) no-repeat, bottom center linear-gradient(#000000, #000000) repeat-x, bottom right linear-gradient(#000000, #000000) no-repeat;
+    background-size: 1px 6px, 1px 1px, 1px 6px;
+}
+
+input.Edad[type='text'] {
+    width: 320px;
+    font-family: "Roboto", "Droid Sans", sans-serif;
+    font-size: 25px;
+    margin: 0;
+    padding: 8px 8px 6px 8px;
+    position: relative;
+    display: block;
+    outline: none;
+    border: none;
+    background: bottom left linear-gradient(#000000, #000000) no-repeat, bottom center linear-gradient(#000000, #000000) repeat-x, bottom right linear-gradient(#000000, #000000) no-repeat;
+    background-size: 1px 6px, 1px 1px, 1px 6px;
+}
+
+input.Nacimiento[type='text'] {
+    width: 320px;
+    font-family: "Roboto", "Droid Sans", sans-serif;
+    font-size: 25px;
+    margin: 0;
+    padding: 8px 8px 6px 8px;
+    position: relative;
+    display: block;
+    outline: none;
+    border: none;
+    background: bottom left linear-gradient(#000000, #000000) no-repeat, bottom center linear-gradient(#000000, #000000) repeat-x, bottom right linear-gradient(#000000, #000000) no-repeat;
+    background-size: 1px 6px, 1px 1px, 1px 6px;
+}
+
+::placeholder {
+    color: black;
+}
+
+input.Nombre[type='text']:hover,
+input.Nombre[type='text']:focus {
+    background: bottom left linear-gradient(#000000, #000000) no-repeat, bottom center linear-gradient(#000000, #000000) repeat-x, bottom right linear-gradient(#000000, #000000) no-repeat;
+    background-size: 1px 6px, 1px 1px, 1px 6px;
+}
+
+input.Numero[type='text']:hover,
+input.Numero[type='text']:focus {
+    background: bottom left linear-gradient(#000000, #000000) no-repeat, bottom center linear-gradient(#000000, #000000) repeat-x, bottom right linear-gradient(#000000, #000000) no-repeat;
+    background-size: 1px 6px, 1px 1px, 1px 6px;
+}
+
+input.Edad[type='text']:hover,
+input.Edad[type='text']:focus {
+    background: bottom left linear-gradient(#000000, #000000) no-repeat, bottom center linear-gradient(#000000, #000000) repeat-x, bottom right linear-gradient(#000000, #000000) no-repeat;
+    background-size: 1px 6px, 1px 1px, 1px 6px;
+}
+
+input.Nacimiento[type='text']:hover,
+input.Nacimiento[type='text']:focus {
+    background: bottom left linear-gradient(#000000, #000000) no-repeat, bottom center linear-gradient(#000000, #000000) repeat-x, bottom right linear-gradient(#000000, #000000) no-repeat;
+    background-size: 1px 6px, 1px 1px, 1px 6px;
+}
+
+#btnGuardar {
+    color: #000000;
+    border: 5px solid #ADAAFA;
+    width: 60%;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-color: #ADAAFA;
+}
