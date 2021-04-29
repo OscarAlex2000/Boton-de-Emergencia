@@ -1,0 +1,95 @@
+body{
+    margin:0;
+    font-family: sans-serif;
+
+}
+
+header{
+    width: 100%;
+    background: #D44D1C;
+
+}
+
+#btn-menu{
+    display: none;
+    
+}
+
+header label{
+    /*Icono menu */
+    display:none;
+    width: 30px;
+    height: 30px;
+    padding: 0px;
+    border-rigth: 1px solid white;
+ 
+    
+}
+/*Icono menu cuando pasas el mouse*/
+header label :hover{
+    cursor: pointer;
+    background: rgb(255, 255, 255);
+
+}
+
+.menu ul{
+    /*La orientacion de los cuadros*/
+    margin: 0 ;
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.menu li{
+    border-right: 1px solid white;
+}
+
+.menu li:hover{
+    background: white;
+}
+.menu li a{
+
+    /*Letras Mi perfil, nosotros...*/
+    display: block;
+    padding:  27.8px;
+    text-align: center;
+    color:black;
+    font-family: fantasy;
+    font-size:xx-large;
+    text-decoration: none;
+
+}
+/*Cuando se reduce a 768 px aparece el icono de menu
+Esto es para cuando estamos en tabletas por ejemplo*/
+@media (max-width:768px){
+    header label{
+        display: block;
+    }
+
+    .menu{
+        /*Aparece y desaparece el menu*/
+        position: absolute;
+        background:  #D44D1C;
+        width: 54%;
+        margin-left: -70%;
+        transition: all 1s;
+    }
+
+    .menu ul{
+        flex-direction: column;
+    }
+
+    .menu li{
+        border-top: 1px solid white;
+    }
+/*Para que al seleccionarlo aparezca el menu desplegable*/
+    #btn-menu:checked ~ .menu{
+        margin: 0;
+
+
+    }
+}
+
