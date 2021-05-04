@@ -16,6 +16,7 @@ header {
 }
 
 #JOP {
+    display: block;
     font-size: 50px;
     text-align: center;
     color: #F9BF00;
@@ -44,4 +45,8 @@ header {
 .BotonAlerta:focus {
     outline: 0;
     padding: 8px 18px;
+}
+
+a {
+    cursor: pointer;
 }

@@ -89,6 +89,20 @@ input.Nacimiento[type='text'] {
     background-size: 1px 6px, 1px 1px, 1px 6px;
 }
 
+input.Correo[type='email'] {
+    width: 320px;
+    font-family: "Roboto", "Droid Sans", sans-serif;
+    font-size: 25px;
+    margin: 0;
+    padding: 8px 8px 6px 8px;
+    position: relative;
+    display: block;
+    outline: none;
+    border: none;
+    background: bottom left linear-gradient(#000000, #000000) no-repeat, bottom center linear-gradient(#000000, #000000) repeat-x, bottom right linear-gradient(#000000, #000000) no-repeat;
+    background-size: 1px 6px, 1px 1px, 1px 6px;
+}
+
 ::placeholder {
     color: black;
 }
@@ -117,6 +131,12 @@ input.Nacimiento[type='text']:focus {
     background-size: 1px 6px, 1px 1px, 1px 6px;
 }
 
+input.Nacimiento[type='email']:hover,
+input.Nacimiento[type='text']:focus {
+    background: bottom left linear-gradient(#000000, #000000) no-repeat, bottom center linear-gradient(#000000, #000000) repeat-x, bottom right linear-gradient(#000000, #000000) no-repeat;
+    background-size: 1px 6px, 1px 1px, 1px 6px;
+}
+
 #btnGuardar {
     color: #000000;
     border: 5px solid #ADAAFA;
@@ -126,4 +146,8 @@ input.Nacimiento[type='text']:focus {
     margin: 0 auto;
     margin-top: 30px;
     background-color: #ADAAFA;
+}
+
+#btnGuardar>h2>a {
+    text-decoration: none;
 }

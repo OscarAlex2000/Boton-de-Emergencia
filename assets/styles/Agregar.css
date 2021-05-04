@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    margin: auto;
+    padding: 0%;
+}
+
+header {
+    text-align: center;
+    font-family: fantasy;
+    color: #D44D1C;
+    background-color: white;
+}
+
+.menu {
+    text-align: right;
+    width: 2%;
+    height: 2%;
+}
+
+main {
+    font-family: fantasy;
+    font-size: 30px;
+    color: black;
+    margin-top: 50px;
+    background-color: #78909C;
+    text-align: center;
+}
+
+input.Nombre[type='text'] {
+    width: 320px;
+    font-family: "Roboto", "Droid Sans", sans-serif;
+    font-size: 25px;
+    margin: 0;
+    padding: 8px 8px 6px 8px;
+    position: relative;
+    display: block;
+    outline: none;
+    border: none;
+    background: bottom left linear-gradient(#000000, #000000) no-repeat, bottom center linear-gradient(#000000, #000000) repeat-x, bottom right linear-gradient(#000000, #000000) no-repeat;
+    background-size: 1px 6px, 1px 1px, 1px 6px;
+}
+
+::placeholder {
+    color: black;
+}
+
+input.Nombre[type='text']:hover,
+input.Nombre[type='text']:focus {
+    background: bottom left linear-gradient(#000000, #000000) no-repeat, bottom center linear-gradient(#000000, #000000) repeat-x, bottom right linear-gradient(#000000, #000000) no-repeat;
+    background-size: 1px 6px, 1px 1px, 1px 6px;
+}
+
+
+/* #Nombre {
+    background-color: transparent;
+}
+
+#Telefono {
+    background-color: transparent;
+}
+
+#Parentesco {
+    background-color: transparent;
+} */
+
+#Enviarinfo {
+    border-radius: 5px;
+    background-color: #D44D1C;
+    font-family: fantasy;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+footer {
+    margin-top: 50px;
+    background-color: #D44D1C;
+    text-align: center;
+}
