@@ -4,12 +4,7 @@
     padding: 0%;
 }
 
-header {
-    text-align: center;
-    font-family: fantasy;
-    color: #D44D1C;
-    background-color: white;
-}
+
 
 .menu {
     text-align: right;
@@ -17,22 +12,43 @@ header {
     height: 2%;
 }
 
+
 main {
-    font-family: fantasy;
+    margin-bottom: 5px;
+    text-align: center;
+    font-family:"Roboto", "Droid Sans", sans-serif;
     font-size: 30px;
     color: black;
-    margin-top: 50px;
+    margin-top: 30px;
     background-color: #78909C;
-    text-align: center;
-}
+  
+}  
 
+
+
+#GuardarInfo{
+    margin-bottom: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 2px solid white;
+   font-size: 20px;
+   width: 190px;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-color: black;
+    opacity: .9;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
 input.Nombre[type='text'] {
+     align-content:  center;
     width: 320px;
     font-family: "Roboto", "Droid Sans", sans-serif;
     font-size: 25px;
-    margin: 0;
     padding: 8px 8px 6px 8px;
-    position: relative;
+    position: center;
     display: block;
     outline: none;
     border: none;
@@ -41,6 +57,7 @@ input.Nombre[type='text'] {
 }
 
 ::placeholder {
+
     color: black;
 }
 
@@ -51,28 +68,61 @@ input.Nombre[type='text']:focus {
 }
 
 
-/* #Nombre {
-    background-color: transparent;
+
+input.Numero[type='number'] {
+    width: 320px;
+    font-family: "Roboto", "Droid Sans", sans-serif;
+    font-size: 25px;
+    padding: 8px 8px 6px 8px;
+    position: center;
+    display: block;
+    outline: none;
+    border: none;
+    background: bottom left linear-gradient(#000000, #000000) no-repeat, bottom center linear-gradient(#000000, #000000) repeat-x, bottom right linear-gradient(#000000, #000000) no-repeat;
+    background-size: 1px 6px, 1px 1px, 1px 6px;
 }
 
-#Telefono {
-    background-color: transparent;
+::placeholder {
+  
+    color: black;
 }
 
-#Parentesco {
-    background-color: transparent;
-} */
-
-#Enviarinfo {
-    border-radius: 5px;
-    background-color: #D44D1C;
-    font-family: fantasy;
-    font-size: 30px;
-    margin-top: 20px;
+input.Numero[type='number']:hover,
+input.Numero[type='number']:focus {
+    background: bottom left linear-gradient(#000000, #000000) no-repeat, bottom center linear-gradient(#000000, #000000) repeat-x, bottom right linear-gradient(#000000, #000000) no-repeat;
+    background-size: 1px 6px, 1px 1px, 1px 6px;
 }
+
+
 
 footer {
-    margin-top: 50px;
+    margin-top: 10px;
+   
     background-color: #D44D1C;
     text-align: center;
+}
+
+#Titulo{
+    text-align: center;
+    font-family: fantasy;
+    color: #D44D1C;
+    background-color: white;
+   text-align:center
+}
+#Parentesco{
+   
+    border: 2px solid white;
+    background-color:#78909C ;
+    border-radius: 5px;
+    width: 320px;
+    height: 30px;
+}
+#paren{
+    margin-right: 140px;
+}
+input.Nombre{
+align-content: center;
+}
+select{
+    font-size: 20px;
 }

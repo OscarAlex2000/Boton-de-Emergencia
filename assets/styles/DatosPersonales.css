@@ -30,7 +30,7 @@ body {
 
 #MensajeDatos {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 input.Nombre[type='text'] {
@@ -47,7 +47,7 @@ input.Nombre[type='text'] {
     background-size: 1px 6px, 1px 1px, 1px 6px;
 }
 
-input.Numero[type='text'] {
+input.Numero[type='number'] {
     width: 320px;
     font-family: "Roboto", "Droid Sans", sans-serif;
     font-size: 25px;

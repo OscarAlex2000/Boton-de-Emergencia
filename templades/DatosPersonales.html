@@ -13,25 +13,25 @@
     <div id="Color">
 
         <header>
-            <h1 id="MensajeDatos" style="color: black">Ingresa tus datos personales </h1>
+            <h1 id="MensajeDatos" style="color: black">INGRESA TUS DATOS PERSONALES </h1>
         </header>
 
         <div id="Container">
 
-            <div id="DatosPersonales">
+            <form action="../assets/php/AgregarDatos.php" method="post">
+                <div id="DatosPersonales">
+                    <input type='email' class='Correo' placeholder="Correo" name="Correo" style="color: white;"></input> <br>
+                    <input type='number' class='Numero' placeholder="Numero telefonico" name="Numero" style="color: white;" maxlength="10"></input> <br>
+                    <input type='text' class='Nombre' placeholder="Nombre" name="Nombre" style="color: white;"></input><br>
+                    <input type='text' class='Edad' placeholder="Edad" name="Edad" style="color: white;"></input> <br>
+                    <input type='text' class='Nacimiento' placeholder="Fecha de Nacimiento" name="Fecha" style="color: white;"></input> <br>
+                </div>
 
-                <input type='email' class='Correo' placeholder="Correo" name="Correo" style="color: black;"></input> <br>
-                <input type='text' class='Numero' placeholder="Numero telefonico" name="Numero" style="color: black;"></input> <br>
-                <input type='text' class='Nombre' placeholder="Nombre" name="Nombre" style="color: black;"></input><br>
-                <input type='text' class='Edad' placeholder="Edad" name="Edad" style="color: black;"></input> <br>
-                <input type='text' class='Nacimiento' placeholder="Fecha de Nacimiento" name="Fecha" style="color: black;"></input> <br>
-
-            </div>
-
-            <div id="btnGuardar">
-                <h2><a href="Principal.html">Guardar Informacion</a></h2>
-            </div>
-
+                <div id="btnGuardar">
+                    <h2><input type="submit" name="Guardar" value="Guardar Informacion"></h2>
+                </div>
+            </form>
+            
         </div>
     </div>
 

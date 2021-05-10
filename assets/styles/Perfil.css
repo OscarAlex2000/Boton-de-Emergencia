@@ -13,9 +13,11 @@
 */
 html,
 body {
+      background-color: #434343;
   font-size: 16px;
   margin: 0;
   padding: 0;
+
 }
 
 /*
@@ -25,7 +27,17 @@ html,
 body {
   display: block;
 }
+#Foto{
+  padding: 10px;
+  padding-left: 30px;
+  width:100%;
+  height: 100%;
+}
 
+#datos{
+  display: inline;
+  text-align: center;
+}
 
 body {
   line-height: 1.317101995;
@@ -49,6 +61,7 @@ body {
   align-items: center;
   height: 100vh;
   width: 100%;
+  
 }
 
 .content {
@@ -73,7 +86,7 @@ body {
   font-size: 18px;
   overflow: hidden;
   transition: all 500ms ease;
-  border: 8px solid: black;
+  border: 8px solid black;
   margin-bottom: 40px;
   z-index: 0;
   font-weight: 700;
@@ -122,6 +135,18 @@ body {
   box-shadow: 0 0 10px black, 0 0 20px  black, 0 0 20px black;
 }
 .btn--4:hover::before {
-  left: 520px;
+  left: 50px;
+}
+#Infor{
+  text-align: left;
+  margin-left: 100px;
 }
 
+#botones > #btnModifica{
+  margin-left: 100px;
+}
+
+#btnModificar{
+  margin-left: 50px;
+  margin-top: 50px;
+}
